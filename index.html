@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bem-vindo(a) — Solução Contábil</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+ body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;background:#f7f9fc;color:#1a1f2c}
+ a{text-decoration:none;color:#E42C26}
+ .container{max-width:980px;margin:auto;padding:24px}
+ header{padding:40px 24px;background:#fff5f5;border-bottom:1px solid #f0dede}
+ h1{font-size:36px;margin:8px 0 12px}
+ p.lead{color:#6d6d6d;font-size:17px;margin:0}
+ .brand{display:flex;gap:16px;align-items:center}
+ .brand img{height:56px;width:auto;border-radius:6px;object-fit:contain;background:#fff;border:1px solid #f0dede;padding:6px}
+ .toc{background:#fff;border:1px solid #f3d1d1;border-radius:12px;padding:20px;margin-top:20px}
+ .toc h2{margin:0 0 8px;font-size:18px}
+ .toc ul{padding-left:18px;line-height:1.7;margin:0}
+ section{padding:56px 0;border-bottom:1px solid #f0dede}
+ h2{font-size:28px;margin:0 0 10px}
+ .badge{display:inline-block;background:#E42C26;color:#fff;padding:6px 12px;border-radius:6px;font-size:13px;font-weight:700;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+ .content{max-width:760px}
+ .note{color:#6d6d6d;font-size:14px}
+ .list{line-height:1.8}
+ footer{text-align:center;padding:32px;color:#6d6d6d;font-size:14px}
+ .btn{display:inline-block;padding:12px 16px;border-radius:10px;border:1px solid #f3d1d1;background:#fff;color:#1a1f2c;font-weight:700}
+ .btn-primary{background:#E42C26;color:#fff;border-color:#E42C26}
+ .btn-primary:hover{filter:brightness(0.9)}
+ .btn:hover{filter:brightness(0.98)}
+ .grid{display:grid;gap:12px}
+ .grid-2{grid-template-columns:1fr 1fr}
+ @media (max-width:900px){.grid-2{grid-template-columns:1fr}.brand{flex-direction:column;align-items:flex-start}}
+ /* Floating WhatsApp */
+ .fab-whats{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;border-radius:999px;width:56px;height:56px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px rgba(0,0,0,.18);z-index:50;border:none}
+ .fab-whats:hover{filter:brightness(0.95)}
+ .fab-whats svg{width:28px;height:28px;fill:#fff}
+</style>
+</head>
+<body>
+<header class="container">
+  <div class="brand">
+    <img src="assets/logo.png" alt="Solução Group - Logo" />
+    <div>
+      <h1>Bem-vindo(a) à Solução Contábil 👋</h1>
+      <p class="lead">Seu onboarding começa aqui. Use o sumário para navegar pelos tópicos.</p>
+    </div>
+  </div>
+</header>
+
+<div class="container toc">
+ <h2>📑 Sumário</h2>
+ <ul>
+  <li><a href="#comunicacao">📬 1. Canais de Comunicação</a></li>
+  <li><a href="#procedimentos">📊 2. Procedimentos Contábeis</a></li>
+  <li><a href="#emissaonf">🧾 3. Emissão de Nota Fiscal</a></li>
+  <li><a href="#dp">👥 4. Departamento Pessoal</a></li>
+  <li><a href="#econtador">🔐 5. Acesso ao Econtador</a></li>
+  <li><a href="#prolabore">👔 6. Pró-Labore</a></li>
+  <li><a href="#proximos">🚀 7. Próximos Passos</a></li>
+ </ul>
+</div>
+
+<main>
+  <!-- 1. Canais de Comunicação -->
+  <section id="comunicacao"><div class="container content">
+    <span class="badge">📬 Comunicação</span>
+    <h2>1. Canais de Comunicação</h2>
+    <p>Muitas de nossas comunicações serão realizadas pela plataforma <strong>Econtador</strong>, por e-mail e a cobrança via banco <strong>Efi (Gerencianet)</strong>. Para garantir o recebimento, acesse as configurações do seu e-mail (webmail) e cadastre como remetentes seguros os seguintes domínios:</p>
+    <ul class="list">
+      <li><strong>solucaocontabil@solucaocontab.com.br</strong></li>
+      <li><strong>solucaocontab.com.br</strong></li>
+      <li><strong>notificacao.sejaefimail.com.br</strong></li>
+      <li><strong>econtador@sistemas.alterdata.com.br</strong></li>
+    </ul>
+    <p class="note"><em>* “Econtador” é nossa plataforma Web/App onde você receberá guias de impostos e outros documentos da sua empresa. Em breve você receberá seu login e senha.</em></p>
+    <p>
+      📱 WhatsApp: <a href="https://wa.me/5511947458906" target="_blank" rel="noopener">11 94745-8906</a><br/>
+      ☎️ Telefone: 11 4225-1733<br/>
+      📧 E-mail: <a href="mailto:solucaocontabil@solucaocontab.com.br">solucaocontabil@solucaocontab.com.br</a><br/>
+      🕐 Atendimento: segunda a sexta, das 8h às 18h.
+    </p>
+  </div></section>
+
+  <!-- 2. Procedimentos Contábeis -->
+  <section id="procedimentos"><div class="container content">
+    <span class="badge">📊 Rotina Contábil</span>
+    <h2>2. Procedimentos Contábeis</h2>
+    <h3>✔ Use a conta da empresa para:</h3>
+    <ul class="list">
+      <li>Receber pagamentos dos seus clientes.</li>
+      <li>Reservar/pagar o valor dos tributos do mês (Impostos, INSS, IRRF e taxa da prefeitura, quando houver), honorários contábeis, fornecedores e demais contas.</li>
+      <li>O saldo, considerado <strong>lucro</strong>, pode ser transferido à conta pessoa física dos sócios (se desejarem). Esse lucro será informado nas declarações e é <strong>isento</strong> para o sócio.</li>
+    </ul>
+    <h3>⚠ Evite:</h3>
+    <ul class="list">
+      <li>Pagar contas pessoais diretamente pela conta da empresa (ex.: mercado, academia).</li>
+      <li>Realizar transferências sem justificativa ou misturar valores pessoais e empresariais.</li>
+    </ul>
+    <h3>🧾 Emissão de nota fiscal:</h3>
+    <p>Emitir as respectivas notas fiscais dos valores recebidos.</p>
+    <h3>🗂️ Documentos contábeis (envio mensal):</h3>
+    <ul class="list">
+      <li>Notas fiscais recebidas;</li>
+      <li>Extratos bancários;</li>
+      <li>Boletos e comprovantes de pagamentos realizados (em ordem cronológica) das despesas;</li>
+      <li>Se utilizar sistema de gestão financeira ou planilhas, enviar também.</li>
+    </ul>
+    <p class="note">💡 Manter os prazos evita multas e garante a entrega das obrigações em dia.<br/>
+    * Caso haja qualquer situação diferente da descrita acima, nos informe para avaliarmos ajustes.</p>
+  </div></section>
+
+  <!-- 3. Emissão de Nota Fiscal -->
+  <section id="emissaonf"><div class="container content">
+    <span class="badge">🧾 NF de Serviços</span>
+    <h2>3. Emissão de Nota Fiscal de Serviços — pela Solução Contábil</h2>
+    <p><strong>Prazo de solicitação:</strong> mínimo de 1 dia útil.</p>
+    <p>Se preferir emitir por conta própria, nos avise que enviaremos um passo a passo.</p>
+    <p>Para emissão de suas notas fiscais de serviço, oferecemos gratuitamente* nosso serviço de emissão de NF. Envie sua solicitação para:</p>
+    <p>📧 <strong>financeiro@solucaogroup.com.br</strong></p>
+    <p><strong>A solicitação deve conter:</strong></p>
+    <ul class="list">
+      <li>Dados do cliente;</li>
+      <li>Valor da nota fiscal;</li>
+      <li>Informações adicionais para a descrição dos serviços.</li>
+    </ul>
+    <p><em>*Gratuito para a emissão de até 3 notas fiscais por mês.</em></p>
+    <div class="grid grid-2">
+      <div>
+        <h3>Tabela de emissão de NFS-e</h3>
+        <ul class="list">
+          <li>Até 03/mês — <strong>Cortesia</strong></li>
+          <li>De 04 a 10/mês — <strong>R$ 70,00</strong></li>
+          <li>De 11 a 15/mês — <strong>R$ 95,00</strong></li>
+          <li>De 16 a 20/mês — <strong>R$ 115,00</strong></li>
+          <li>De 21 a 30/mês — <strong>R$ 170,00</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div></section>
+
+  <!-- 4. Departamento Pessoal -->
+  <section id="dp"><div class="container content">
+    <span class="badge">👥 Departamento Pessoal</span>
+    <h2>4. Departamento Pessoal — Fluxo mensal</h2>
+    <p>Caso sua empresa tenha colaboradores CLT:</p>
+    <ul class="list">
+      <li>Apuração do ponto: período de 26 a 26 (mês seguinte). Envie as informações da apuração <strong>todo dia 27</strong> de cada mês.</li>
+      <li>Eventos de folha: inserir pelo Econtador em <strong>Departamento Pessoal → FolhaNet</strong>.</li>
+      <li>Seguindo esse procedimento, enviaremos os documentos para pagamento da folha no <strong>2º dia útil</strong> de cada mês.</li>
+    </ul>
+    <h3>Férias</h3>
+    <p>O colaborador deve ter ciência do período com <strong>30 dias</strong> de antecedência. Envie a solicitação de férias com pelo menos <strong>5 dias úteis</strong> de antecedência ao início. Inserir em <strong>Departamento Pessoal → Agendamento de férias</strong>.</p>
+    <h3>Admissão</h3>
+    <p>Por prazos do eSocial, os documentos e informações de admissão devem ser enviados em até <strong>5 dias úteis</strong> antes do início. Solicitação via <strong>Departamento Pessoal → Pré-Admissão de funcionários</strong>, preenchendo os campos e anexando documentos.</p>
+    <p class="note">💡 Manter os prazos evita multas e garante a entrega das obrigações em dia.</p>
+  </div></section>
+
+  <!-- 5. Acesso ao Econtador -->
+  <section id="econtador"><div class="container content">
+    <span class="badge">🔐 Portal do Cliente</span>
+    <h2>5. Acesso ao Econtador</h2>
+    <p>Desenvolvemos essa ferramenta pensando em você! Para evitar fraudes com guias falsas e e-mails maliciosos, e para centralizar documentos, certidões negativas, guias de impostos, folha e boletos, utilize o Econtador.</p>
+    <p>Você receberá por e-mail o login de acesso. Entre com seu <strong>CPF</strong> e defina a senha.</p>
+    <p class="note">💡 <strong>Dica:</strong> ao preencher o login e senha, marque a opção “manter conectado” para facilitar os próximos acessos.</p>
+    <p>
+      <a class="btn btn-primary" href="https://econtador.alterdata.com.br" target="_blank" rel="noopener">Acessar o Econtador</a>
+      <a class="btn" href="assets/ManualCliente-EcontadorSOLUCAO.pdf" target="_blank" rel="noopener">Baixar Manual do Cliente (PDF)</a>
+    </p>
+  </div></section>
+
+  <!-- 6. Pró-Labore -->
+  <section id="prolabore"><div class="container content">
+    <span class="badge">👔 Sócios</span>
+    <h2>6. Pró-Labore</h2>
+    <p>O pró-labore representa a remuneração do sócio/gestor pelo trabalho realizado. Sobre o valor, há recolhimento de <strong>INSS</strong> e, se aplicável, <strong>IRRF</strong>.</p>
+    <p>Não há definição legal fixa para o valor. Considerando benefícios da Previdência (aposentadoria, auxílio-doença, auxílio-maternidade, etc.), indique um valor entre o salário mínimo e o teto de contribuição, que atualmente (<em>fev/25</em>) é: <strong>mínimo R$ 1.518,00</strong> e <strong>teto R$ 8.147,51</strong>.</p>
+    <ul class="list">
+      <li>INSS a recolher: <strong>11%</strong> sobre o pró-labore;</li>
+      <li>IRRF: se aplicável, entre <strong>7,5%</strong> e <strong>27,5%</strong>.</li>
+    </ul>
+    <p>Se o lucro da empresa for superior ao pró-labore, a diferença é considerada <strong>retirada de lucros</strong>, isenta de IR e INSS. Também é isento quando não há pró-labore e toda a retirada é tratada como lucros.</p>
+  </div></section>
+
+  <!-- 7. Próximos Passos -->
+  <section id="proximos"><div class="container content">
+    <span class="badge">🚀 Finalização</span>
+    <h2>7. Próximos Passos</h2>
+    <ul class="list">
+      <li>☐ Acessar as configurações do e-mail e cadastrar os endereços informados como seguros.</li>
+      <li>☐ Verificar o e-mail referente ao login do Econtador e cadastrar a senha.</li>
+      <li>☐ Se necessário, agendar reunião de alinhamento.</li>
+      <li>☐ Salvar este guia nos favoritos.</li>
+      <li>☐ Em caso de dúvidas, entre em contato com nossa equipe.</li>
+    </ul>
+    <p>
+      <a class="btn" href="#topo" onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆️ Voltar ao topo</a>
+      <a class="btn" href="https://wa.me/5511947458906" target="_blank" rel="noopener">💬 Falar no WhatsApp</a>
+    </p>
+  </div></section>
+</main>
+
+<footer>
+  Solução Contábil — Onboarding do Cliente • Todos os direitos reservados
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a class="fab-whats" href="https://wa.me/5511947458906" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19.11 17.59c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.62.14-.18.27-.71.88-.87 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.35-.8-.71-1.34-1.58-1.5-1.85-.16-.27-.02-.42.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.62-1.5-.85-2.05-.22-.53-.45-.46-.62-.46-.16 0-.34-.02-.52-.02s-.48.07-.73.34c-.25.27-.96.94-.96 2.3 0 1.36.99 2.67 1.13 2.85.14.18 1.94 2.96 4.7 4.15.66.29 1.18.46 1.59.59.67.21 1.28.18 1.76.11.54-.08 1.6-.65 1.83-1.27.23-.62.23-1.15.16-1.27-.07-.11-.25-.18-.52-.32zM16.01 29c-2.2 0-4.26-.58-6.06-1.59L5 29l1.64-4.84A12.95 12.95 0 0 1 3 16.02C3 9.38 8.37 4 15.01 4c6.64 0 12.01 5.38 12.01 12.02 0 6.64-5.37 12.01-12.01 12.01zm0-22.02C9.94 6.98 5.97 10.95 5.97 16.02c0 2.26.79 4.34 2.12 5.99l-1.39 4.06 4.2-1.33a10 10 0 0 0 5.12 1.41c6.06 0 11.01-4.95 11.01-11.01 0-6.06-4.95-11.07-11.01-11.07z"/></svg>
+</a>
+
+</body>
+</html>
